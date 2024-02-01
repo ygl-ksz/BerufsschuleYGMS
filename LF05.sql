@@ -4,7 +4,7 @@ Z.BEZEICHNUNG AS Zutat, Rz.Menge, Rz.Einheit AS Einheit
 FROM REZEPTZUTATEN AS Rz
 JOIN ZUTAT AS Z ON Rz.ZutatenNr = Z.ZUTATENNR
 WHERE RezeptNr =
-(SELECT RezeptNr FROM REZEPT As R WHERE R.RezeptName = 'Nudeln mit Tomatensosse')
+(SELECT RezeptNr FROM REZEPT As R WHERE R.RezeptName = 'Käseapfel mit Kichererbseb')
 
 
 
